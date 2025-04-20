@@ -1,5 +1,3 @@
-// File: infoplanetas.java
-// Clase que representa la información de un planeta
 public class infoplanetas {
     private String nombre;
     private long distancia;
@@ -16,7 +14,7 @@ public class infoplanetas {
         this.criaturaFinal = criaturaFinal;
     }
 
-    // Getters
+    // Métodos de acceso
     public String getNombre() { return nombre; }
     public long getDistancia() { return distancia; }
     public double getGravedad() { return gravedad; }
